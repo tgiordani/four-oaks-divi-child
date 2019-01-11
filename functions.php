@@ -14,6 +14,6 @@ function theme_enqueue_styles() {
 //
 // Your code goes below
 //
-echo "PostCats";
 
-echo "<pre>" . print_r(wp_get_post_categories( $post_id = 5057, $args = array() )) . "</pre>";
+// Include all files included in include.php
+ include "includes/includes.php";
